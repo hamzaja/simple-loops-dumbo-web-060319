@@ -8,7 +8,7 @@ def loop_iterator(number_of_times)
   #   correct number of times?
   # Maybe we should keep count of the number of times we've puts out the 
   #  phrase and break when the counter hits the appropriate number...
- numberoftimes.times 
+ numberoftimes.times do
  puts "Welcome to Flatiron School's Web Development Course!"
 end
 end
@@ -39,7 +39,6 @@ def until_iterator(number_of_times)
   puts "Welcome to Flatiron School's Web Development Course!"
   i += 1
 end
-
 end
 
 def for_iterator(number_of_times)
