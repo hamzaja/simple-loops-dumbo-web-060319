@@ -54,7 +54,7 @@ end
 
 def hy(num)
  
-  for i in num do
+  for each in num do
   puts "Welcome to Flatiron School's Web Development Course!"
   end
 end
