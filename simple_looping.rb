@@ -52,9 +52,9 @@ def for_iterator(number_of_times)
 end
 
 
-def for_iterator(number_of_times)
+def hy(num)
  
-  for i in number_of_times do
+  for i in num do
   puts "Welcome to Flatiron School's Web Development Course!"
   end
 end
