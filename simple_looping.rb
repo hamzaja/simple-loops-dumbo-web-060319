@@ -8,7 +8,7 @@ def loop_iterator(number_of_times)
   #   correct number of times?
   # Maybe we should keep count of the number of times we've puts out the 
   #  phrase and break when the counter hits the appropriate number...
- for i in 1..number_of_times do
+ numberoftimes.times 
  puts "Welcome to Flatiron School's Web Development Course!"
 end
 end
@@ -34,10 +34,12 @@ def until_iterator(number_of_times)
   # code your solution here using the "until" keyword
   # hint: use a counter to tell the until loop when to stop!
   i = 1
+  
   until i <= number_of_times
   puts "Welcome to Flatiron School's Web Development Course!"
   i += 1
 end
+
 end
 
 def for_iterator(number_of_times)
@@ -51,12 +53,6 @@ def for_iterator(number_of_times)
 end
 
 
-# def hy(num)
- 
-#   for each in 1..num do
-#   puts "Welcome to Flatiron School's Web Development Course!"
-#   end
-# end
 
 
 
